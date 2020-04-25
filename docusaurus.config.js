@@ -1,28 +1,45 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Ayuda en línea',
+  tagline: 'Registro Público de Panamá',
+  url: 'https://ayuda.rp.gob.pa',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'registro-publico', // Usually your GitHub org/user name.
+  projectName: 'ayuda-rpp', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Ayuda en línea',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'RPP',
+        src: 'img/logo_96.png',
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/servicios-web/intro',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Servicios web',
           position: 'left',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          to: 'docs/servicios-web/ventanilla-virtual/presentacion-telematica/intro',
+          activeBasePath: 'docs',
+          label: 'Presentación telemática',
+          position: 'left',
+        },
+        {
+          to: 'docs/dincrece/preguntas-frecuentes',
+          activeBasePath: 'docs',
+          label: 'Preguntas frecuentes',
+          position: 'left',
+        },
+        {
+          href: 'https://www.rp.gob.pa/',
+          label: 'Acceder a Servicios Web',
+          position: 'right',
+        },
+        {
+          href: 'https://www.registro-publico.gob.pa/',
+          label: 'Visitar web institucional',
           position: 'right',
         },
       ],
@@ -74,7 +91,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Registro Público de Panamá. Built with Docusaurus.`,
     },
   },
   presets: [
