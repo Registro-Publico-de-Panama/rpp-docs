@@ -3,9 +3,9 @@ id: firma-electronica
 title: Firma electrónica de documentos
 ---
 
-La firma electrónica es un procedimiento tecnológico mediante el cual puede firmar documentos digitales, con la misma validez legal en Panamá que el de una firma manuscrita.
+La firma electrónica es un procedimiento tecnológico mediante el cual puede firmar documentos digitales, con la misma validez legal en Panamá que el de una firma manuscrita. (Ley Nº 82 de 2012)
 
-Para esto requiere la emisión de un certificado electrónico calificado por parte de la Dirección Nacional de Firma Electrónica del Registro Público de Panamá.
+Para esto requiere la emisión de un certificado electrónico calificado por parte de la [Dirección Nacional de Firma Electrónica](#dirección-nacional-de-firma-electrónica) del Registro Público de Panamá.
 
 ## Solicitud de certificados para Firma Electrónica
 
@@ -26,13 +26,13 @@ Dependiendo de su estatus (Persona Natural o Abogados), la documentación a pres
 
 ### Procedimiento
 
-1. Realizar el pago correspondiente. (Más información aquí).
+1. Realizar el pago correspondiente ([más información aquí](#costo-y-forma-de-pago)).
 
-1. Notificar la realización del pago a la Dirección Nacional de Firma Electrónica, enviando copia del combrobante y/o notificación de transferencia bancaria al correo electrónico servicios@firmaelectronica.gob.pa
+1. Notificar la realización del pago, enviando copia del combrobante y/o notificación de transferencia bancaria al correo electrónico servicios@firmaelectronica.gob.pa
 
-1. Presentarse personalmente a la Dirección Nacional de Firma Electrónica con la documentación arriba mencionada según el perfil requerido para la verificación de identidad.
+1. Presentarse personalmente a la [Dirección Nacional de Firma Electrónica](#dirección-nacional-de-firma-electrónica) con la documentación arriba mencionada según el perfil requerido para la verificación de identidad.
 
-1. Un funcionario de la DNFE capturará sus datos personales, sus datos biométricos y le tomará una fotografía que irá impresa en el SmartCard que contiene el certificado electrónico.
+1. Un funcionario capturará sus datos personales, sus datos biométricos y le tomará una fotografía que irá impresa en el SmartCard que contiene el certificado electrónico.
 
 ## Costo y forma de pago
 Según la Resolución JD-003-2013, el costo de la emisión de certificados digitales es el siguiente:
@@ -62,7 +62,7 @@ Hay dos opciones para realizar el pago:
 ## Dirección Nacional de Firma Electrónica
 
 ### Direción
-Avenida 12 de octubre, Centro Comercial La Hispanidad, local A-7.
+Avenida 12 de octubre, Centro Comercial La Hispanidad, local A-7. <a href="https://www.google.com/maps/dir//firma+electronica+panama/" target="_blank">Ver mapa</a>.
 
 ## Horario
 Lunes a Viernes de 8:00 am a 3:30 pm
@@ -70,6 +70,7 @@ Lunes a Viernes de 8:00 am a 3:30 pm
 ### Contacto
 - Teléfono: 504-8300
 - Email: servicios@firmaelectronica.gob.pa
+- Web: <a href="https://www.firmaelectronica.gob.pa" target="_blank">firmaelectronica.gob.pa</a>
 
 
 ## Preguntas frecuentes
@@ -88,7 +89,7 @@ Un ejemplo práctico es el pin que se introduce en el cajero automático o la co
 
 Necesita dos cosas:
 
-1. Un certificado electrónico emitido por la Dirección Nacional de Firma Electrónica del Registro Público de Panamá.
+1. Un certificado electrónico emitido por la [Dirección Nacional de Firma Electrónica](#dirección-nacional-de-firma-electrónica) del Registro Público de Panamá.
 
 2. Un dispositivo que le permita la interfaz entre su equipo y el dispositivo de seguridad (generalmente una tarjeta con chip de seguridad) donde se almacena el certificado electrónico.
 
@@ -101,7 +102,7 @@ La Ley Nº 82 de 2012 define la firma electrónica calificada como una “Firma 
 1. Permite identificar al firmante y detectar cualquier cambio posterior de los datos firmados.
 1. Está vinculada al firmante de manera única y a los datos a que se refiere.
 1. Ha sido creada utilizando dispositivos seguros de creación de firmas electrónicas, los cuales mantiene el firmante bajo su control exclusivo.
-1. Ha sido creada a través de la infraestructura de un prestador de servicios de certificación registrado ante la Dirección Nacional de Firma Electrónica.”
+1. Ha sido creada a través de la infraestructura de un prestador de servicios de certificación registrado ante la [Dirección Nacional de Firma Electrónica](#dirección-nacional-de-firma-electrónica).”
 
 ### ¿Qué garantías ofrece la firma electrónica calificada?
 Las garantías que ofrece la firma electrónica calificada que ofrece el Registro Público de Panamá son las siguientes:
