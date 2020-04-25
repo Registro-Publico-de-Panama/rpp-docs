@@ -1,9 +1,9 @@
 module.exports = {
   menuLateral: {
     'Servicios web': [
+      'servicios-web/intro',
       {
         '¿Por dónde empiezo?': [
-          'servicios-web/intro',
           'servicios-web/registro-de-usuario',
           'servicios-web/firma-electronica',
         ],
@@ -25,6 +25,7 @@ module.exports = {
           }
         ],
       },
+      'servicios-web/preguntas-frecuentes',
     ],
     'Temas registrales': [
       'dincrece/preguntas-frecuentes',
