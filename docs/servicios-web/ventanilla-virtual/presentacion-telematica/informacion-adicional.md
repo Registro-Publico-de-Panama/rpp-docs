@@ -1,0 +1,44 @@
+---
+id: informacion-adicional
+title: Información adicional
+---
+
+## Requisitos antes de presentar documentos en línea
+1. Digitalizar el documento que va a ingresar. <a href="" target="_blank">Más información aquí</a>.
+1. Firmar electrónicamente el documento digitalizado, usando su certificado de firma electrónica calificada. <a href="../../../otros-recursos/firma-electronica#firma-de-documentos-usando-certificados-electrónicos" target="_blank">Más información aquí</a>.
+1. (opcional) Recomendamos hacer un cálculo previo de los derechos de calificación y registro de su documentos. Puede usar nuestra <a href="../../calculadora-registral" target="_blank">Calculadora Registral</a>.
+
+## Recuperar presentaciones guardadas
+...
+
+## Entradas presentadas y pendientes
+...
+
+## Requisitos para digitalización de documentos
+...
+
+## Notificaciones enviadas por correo electrónico
+
+### Recibo de Pago
+Cuando usted realiza el pago de su solicitud le llegará a su correo un recibo para que tenga constancia de que su pago fue realizado, este mismo será identificado bajo un número de liquidación.
+
+### Escrituras Inscritas
+Se le una Constancia de Inscripción firmada electronicamente, indicándole que su documento fue instrito.
+
+> ![Correo de notificación de escritura inscrita](/img/servicios-web-ventanilla-virtual-telematica-notificacion-1.jpg)
+
+### Escrituras defectuosas
+En caso de que su escritura se encuentre defectuosa el sistema le enviara una notificación al correo con 3 enlaces, los cuales usted podrá ejecutar cualquiera de ellos, luego de haber investigado en la página web en el apartado Consultas Registrales el defecto de su entrada, y así decidir cuál de las 3 opciones amerita ejecutar dependiendo el defecto que tiene la escritura.
+
+> ![Correo de notificación de escritura defectuosa](/img/servicios-web-ventanilla-virtual-telematica-notificacion-2.jpg)
+
+Esta notificación le incluye enlaces para:
+
+**Adición de Documentos**
+Luego de haber investigado su entrada defectuosa en consultas y considera que la misma se le puede hacer una adición para corregir o anexar documentos faltantes para su inscripción, puede seleccionar esta opción.
+
+**Retirado sin Inscribir**
+Si usted considera que su Escritura tiene que ser corregida y decide Retirar sin Inscribir el sistema le enviará la opción automáticamente para retirarla.
+
+**Reingreso**
+Una vez usted corrija la Escritura y quiera reingresarla ya corregida, usted podrá liquidarla como reingreso  ejecutando este link, todo esto en caso que desee liquidarla por la web pero reingresarla presencialmente o físicamente.

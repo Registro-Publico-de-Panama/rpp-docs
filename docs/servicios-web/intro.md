@@ -1,6 +1,6 @@
 ---
 id: intro
-title: Introducción a los servicios web
+title: Introducción
 ---
 
 ## En construcción

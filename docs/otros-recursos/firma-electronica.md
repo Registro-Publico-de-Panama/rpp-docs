@@ -1,6 +1,6 @@
 ---
 id: firma-electronica
-title: Firma electrónica de documentos
+title: Firma electrónica
 ---
 
 La firma electrónica es un procedimiento tecnológico mediante el cual puede firmar documentos digitales, con la misma validez legal en Panamá que el de una firma manuscrita. (Ley Nº 82 de 2012)
@@ -24,7 +24,7 @@ Dependiendo de su estatus (Persona Natural o Abogados), la documentación a pres
 - Correo electrónico personal o de la empresa.
 - Boleta de pago del servicio
 
-### Procedimiento
+### Solicitud
 
 1. Realizar el pago correspondiente ([más información aquí](#costo-y-forma-de-pago)).
 
@@ -34,7 +34,7 @@ Dependiendo de su estatus (Persona Natural o Abogados), la documentación a pres
 
 1. Un funcionario capturará sus datos personales, sus datos biométricos y le tomará una fotografía que irá impresa en el SmartCard que contiene el certificado electrónico.
 
-## Costo y forma de pago
+### Costo y forma de pago
 Según la Resolución JD-003-2013, el costo de la emisión de certificados digitales es el siguiente:
 
 | Perfil | Costo por certificado |
@@ -58,13 +58,18 @@ Hay dos opciones para realizar el pago:
     - Utilizar la boleta de pago #02 (tenemos la Boleta en nuestras oficinas de Firma Electrónica)
     - Efectivo / cheque certificado o de erencia (A FAVOR DEL REGISTRO PÚBLICO DE PANAMÁ)
 
+---
+## Firma de documentos usando certificados electrónicos
+...
+// @todo Recordar que debe tener internet al momento de la firma para que servicio el servicio de timestamping
 
+---
 ## Dirección Nacional de Firma Electrónica
 
 ### Direción
 Avenida 12 de octubre, Centro Comercial La Hispanidad, local A-7. <a href="https://www.google.com/maps/dir//firma+electronica+panama/" target="_blank">Ver mapa</a>.
 
-## Horario
+### Horario
 Lunes a Viernes de 8:00 am a 3:30 pm
 
 ### Contacto
@@ -72,7 +77,7 @@ Lunes a Viernes de 8:00 am a 3:30 pm
 - Email: servicios@firmaelectronica.gob.pa
 - Web: <a href="https://www.firmaelectronica.gob.pa" target="_blank">firmaelectronica.gob.pa</a>
 
-
+---
 ## Preguntas frecuentes
 
 ### ¿Qué es la firma electrónica?
