@@ -2,12 +2,8 @@ module.exports = {
   menuLateral: {
     'Servicios web': [
       'servicios-web/intro',
+      'servicios-web/cuentas-de-usuario',
       {
-        '¿Por dónde empiezo?': [
-          'servicios-web/registro-de-usuario',
-          'servicios-web/firma-electronica',
-        ],
-      }, {
         'Consulta de información': [
           'servicios-web/consulta/busqueda-de-entradas',
           'servicios-web/consulta/busqueda-de-folios',
@@ -21,21 +17,28 @@ module.exports = {
           {
             'Presentación Telemática': [
               'servicios-web/ventanilla-virtual/presentacion-telematica/intro',
+              'servicios-web/ventanilla-virtual/presentacion-telematica/presentacion-de-documentos',
+              'servicios-web/ventanilla-virtual/presentacion-telematica/reingreso-de-documentos',
+              'servicios-web/ventanilla-virtual/presentacion-telematica/adicion-de-documentos',
+              'servicios-web/ventanilla-virtual/presentacion-telematica/informacion-adicional',
             ],
           }
         ],
       },
+      'servicios-web/calculadora-registral',
       'servicios-web/preguntas-frecuentes',
     ],
     'Temas registrales': [
+      'dincrece/informacion-general',
       'dincrece/preguntas-frecuentes',
       'dincrece/defectos-comunes',
+      'dincrece/liquidacion',
+      'dincrece/glosario',
     ],
     'Otros recursos': [
-      'doc1',
-      'doc2',
-      'doc3',
-      'mdx',
+      'otros-recursos/firma-electronica',
+      'otros-recursos/reembolsos-y-devoluciones',
+      'otros-recursos/privacidad-y-seguridad',
     ],
   },
 };
