@@ -33,6 +33,11 @@ module.exports = {
     ],
   ],
   themeConfig: {
+    algolia: {
+      apiKey: '',
+      indexName: 'rpp-docs',
+      algoliaOptions: {},
+    },
     navbar: {
       title: 'Ayuda en línea',
       logo: {
