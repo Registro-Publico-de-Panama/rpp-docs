@@ -1,11 +1,11 @@
 module.exports = {
   title: 'Ayuda en línea',
   tagline: 'Registro Público de Panamá',
-  url: 'https://ayuda.rp.gob.pa',
-  baseUrl: '/',
+  organizationName: 'Registro-Publico-de-Panama',
+  url: 'https://registro-publico-de-panama.github.io',
+  baseUrl: '/rpp-docs/',
+  projectName: 'rpp-docs',
   favicon: 'img/favicon.ico',
-  organizationName: 'registro-publico', // Usually your GitHub org/user name.
-  projectName: 'ayuda-rpp', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Ayuda en línea',
@@ -101,7 +101,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/registro-publico-de-panama/rpp-docs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
