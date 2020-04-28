@@ -38,6 +38,9 @@ module.exports = {
       indexName: 'rpp-docs',
       algoliaOptions: {},
     },
+    googleAnalytics: {
+      trackingID: 'UA-164754925-1',
+    },
     navbar: {
       title: 'Ayuda en línea',
       logo: {
