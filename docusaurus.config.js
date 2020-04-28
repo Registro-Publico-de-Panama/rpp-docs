@@ -6,6 +6,21 @@ module.exports = {
   baseUrl: '/rpp-docs/',
   projectName: 'rpp-docs',
   favicon: 'img/favicon.ico',
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl:
+            'https://github.com/registro-publico-de-panama/rpp-docs/edit/master/',
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      },
+    ],
+  ],
   themeConfig: {
     navbar: {
       title: 'Ayuda en línea',
@@ -94,19 +109,4 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Registro Público de Panamá. Built with Docusaurus.`,
     },
   },
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/registro-publico-de-panama/rpp-docs/edit/master/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
-    ],
-  ],
 };
