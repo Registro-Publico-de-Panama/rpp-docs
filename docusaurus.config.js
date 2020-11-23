@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
   title: 'Ayuda en línea',
   tagline: 'Registro Público de Panamá',
@@ -36,8 +38,8 @@ module.exports = {
   ],
   themeConfig: {
     algolia: {
-      apiKey: '',
-      indexName: 'rpp-docs',
+      apiKey: process.env.ALGOLIA_API_KEY,
+      indexName: 'registro-publico-de-panama',
       algoliaOptions: {},
     },
     googleAnalytics: {
