@@ -1,11 +1,13 @@
 module.exports = {
   title: 'Ayuda en línea',
   tagline: 'Registro Público de Panamá',
-  organizationName: 'Registro-Publico-de-Panama',
   url: 'https://registro-publico-de-panama.github.io',
-  baseUrl: '/rpp-docs/',
-  projectName: 'rpp-docs',
+  baseUrl: '/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  organizationName: 'Registro-Publico-de-Panama',
+  projectName: 'rpp-docs',
   plugins: [
     [
       '@docusaurus/plugin-ideal-image',
@@ -47,7 +49,7 @@ module.exports = {
         alt: 'RPP',
         src: 'img/logo_96.png',
       },
-      links: [
+      items: [
         {
           to: 'docs/servicios-web/intro',
           activeBasePath: 'docs',
