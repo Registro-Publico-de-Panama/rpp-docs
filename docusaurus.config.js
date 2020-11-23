@@ -28,7 +28,9 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/registro-publico-de-panama/rpp-docs/edit/master/',
+            'https://github.com/registro-publico-de-panama/rpp-docs/edit/develop/',
+          routeBasePath: '/',
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -53,19 +55,19 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/servicios-web/intro',
+          to: 'servicios-web/intro',
           activeBasePath: 'docs',
           label: 'Servicios web',
           position: 'left',
         },
         {
-          to: 'docs/servicios-web/ventanilla-virtual/presentacion-telematica/intro',
+          to: 'servicios-web/ventanilla-virtual/presentacion-telematica/intro',
           activeBasePath: 'docs',
           label: 'Presentación telemática',
           position: 'left',
         },
         {
-          to: 'docs/dincrece/preguntas-frecuentes',
+          to: 'dincrece/preguntas-frecuentes',
           activeBasePath: 'docs',
           label: 'Preguntas frecuentes',
           position: 'left',
