@@ -4,7 +4,7 @@ module.exports = {
   title: 'Ayuda en línea',
   tagline: 'Registro Público de Panamá',
   url: 'https://registro-publico-de-panama.github.io',
-  baseUrl: '/',
+  baseUrl: '/rpp-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -92,11 +92,11 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/doc1',
+              to: 'doc1',
             },
             {
               label: 'Second Doc',
-              to: 'docs/doc2',
+              to: 'doc2',
             },
           ],
         },
@@ -116,10 +116,6 @@ module.exports = {
         {
           title: 'Social',
           items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
