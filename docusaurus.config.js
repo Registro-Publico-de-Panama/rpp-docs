@@ -1,29 +1,85 @@
+require('dotenv').config();
+
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'Ayuda en línea',
+  tagline: 'Registro Público de Panamá',
+  url: 'https://registro-publico-de-panama.github.io',
+  baseUrl: '/rpp-docs/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-  themeConfig: {
-    navbar: {
-      title: 'My Site',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+  organizationName: 'Registro-Publico-de-Panama',
+  projectName: 'rpp-docs',
+  plugins: [
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 70,
+        max: 1030, // max resized image's size.
+        min: 640, // min resized image's size. if original is lower, use that size.
+        steps: 2, // the max number of images generated between min and max (inclusive)
       },
-      links: [
+    ],
+  ],
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl:
+            'https://github.com/registro-publico-de-panama/rpp-docs/edit/develop/',
+          routeBasePath: '/',
+          showLastUpdateTime: true,
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      },
+    ],
+  ],
+  themeConfig: {
+    algolia: {
+      apiKey: process.env.ALGOLIA_API_KEY,
+      indexName: 'registro-publico-de-panama',
+      algoliaOptions: {},
+    },
+    googleAnalytics: {
+      trackingID: 'UA-164754925-1',
+    },
+    navbar: {
+      title: 'Ayuda en línea',
+      logo: {
+        alt: 'RPP',
+        src: 'img/logo_96.png',
+      },
+      items: [
         {
-          to: 'docs/doc1',
+          to: 'servicios-web/intro',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Servicios web',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          to: 'servicios-web/ventanilla-virtual/presentacion-telematica/intro',
+          activeBasePath: 'docs',
+          label: 'Presentación telemática',
+          position: 'left',
+        },
+        {
+          to: 'dincrece/preguntas-frecuentes',
+          activeBasePath: 'docs',
+          label: 'Preguntas frecuentes',
+          position: 'left',
+        },
+        {
+          href: 'https://www.rp.gob.pa/',
+          label: 'Acceder a Servicios Web',
+          position: 'right',
+        },
+        {
+          href: 'https://www.registro-publico.gob.pa/',
+          label: 'Visitar web institucional',
           position: 'right',
         },
       ],
@@ -36,11 +92,11 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/doc1',
+              to: 'doc1',
             },
             {
               label: 'Second Doc',
-              to: 'docs/doc2',
+              to: 'doc2',
             },
           ],
         },
@@ -61,10 +117,6 @@ module.exports = {
           title: 'Social',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
             },
@@ -75,22 +127,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Registro Público de Panamá. Built with Docusaurus.`,
     },
   },
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
-    ],
-  ],
 };
